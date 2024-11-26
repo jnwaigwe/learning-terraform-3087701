@@ -25,7 +25,7 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = [aws_security_group.blob.id]
 
   tags = {
-    Name = "Learning Terraform"
+    Name = "Hello World"
   }
 }
 
